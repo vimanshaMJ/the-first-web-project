@@ -1,0 +1,103 @@
+/* Do not worry if you don't understand any of the code lines we've provided */
+/* You will learn all these things soon */
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  background: url("./images/background-image.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.container {
+  width: 650px;
+  background: #f8ecee;
+}
+@media (max-width: 991px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 551px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.logo{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.para-1{
+  color: rgb(25, 25, 113);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  padding: 0 20% 0 20%;
+}
+
+.para-2{
+  color: rgb(25, 25, 113);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 20% 0 20%;
+}
+
+.box{
+    color: white;
+    background-color: rgb(16, 16, 79);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 210px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+  }
+
+  .girl1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .para-3{
+    color: rgb(25, 25, 113);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0 8% 0 8%;
+  }
+
+  .para-4{
+    color: white;
+    background-color: #004d53;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    padding: 0px 15% 5% 15%;
+  }
+
+  .girl2{
+    background-color: #004d53;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+  }
